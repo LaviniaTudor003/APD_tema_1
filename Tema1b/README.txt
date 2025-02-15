@@ -1,3 +1,5 @@
+Rezolvarea prin mai multe modalitati a problemei cititori - scriitori pentru o intelegere mai buna.
+
 Pentru prima implementare, cea cu prioritizarea cititorilor:
 - cititorii au putut accesa resursa in paralel in absenta scriitorilor, astfel se minimizeaza blocajele pentru un numar mare de cititori.
 - o problema pe care am intampinat-o initial a fost legata de secventele generate si de numarul total de scrieri, fiind o baza de date bazata pe index, am vrut ca fiecare thread sa isi vada de bucatica lui.
